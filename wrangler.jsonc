@@ -1,0 +1,9 @@
+{
+  // Cloudflare settings for this site. The name must match the project name in the Cloudflare dashboard.
+  "name": "theinnercirclepodcast-site",
+  "compatibility_date": "2026-10-10",
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "404-page"
+  }
+}

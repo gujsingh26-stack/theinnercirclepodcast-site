@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Inner Circle Podcast — Conversations with Founders, Creators and Innovators</title>
+<meta name="description" content="Watch every episode of The Inner Circle Podcast. Long-form, cinematic conversations with founders, creators and innovators on business, mindset and entertainment. Hosted by DJ Haashim, filmed in London.">
+<link rel="canonical" href="https://theinnercirclepodcast.co.uk/">
+<meta property="og:site_name" content="The Inner Circle Podcast">
+<meta property="og:title" content="The Inner Circle Podcast">
+<meta property="og:description" content="Real conversations with founders, creators and innovators. Hosted by DJ Haashim.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://theinnercirclepodcast.co.uk/">
+<meta property="og:image" content="https://ugc.production.linktr.ee/766bd147-d7c8-4290-9f76-fc83cc9f6202_IMG-6929.jpeg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "PodcastSeries",
+  "name": "The Inner Circle Podcast",
+  "url": "https://theinnercirclepodcast.co.uk/",
+  "description": "Long-form, cinematic conversations with founders, creators and innovators on business, mindset and entertainment.",
+  "image": "https://ugc.production.linktr.ee/766bd147-d7c8-4290-9f76-fc83cc9f6202_IMG-6929.jpeg",
+  "inLanguage": "en-GB",
+  "author": { "@type": "Person", "name": "DJ Haashim" },
+  "sameAs": [
+    "https://www.youtube.com/@TheInnerCirclePodcastOfficial",
+    "https://www.instagram.com/theinnercirclepodcast.official",
+    "https://www.tiktok.com/@theinnercirclepodcast.official",
+    "https://www.facebook.com/profile.php?id=61565287599182"
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="mark" href="index.html" aria-label="The Inner Circle Podcast home">
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="16" cy="16" r="13" stroke="#C9A24A" stroke-width="1.5"/><circle cx="16" cy="16" r="7" stroke="#C9A24A" stroke-width="1.5"/><circle cx="16" cy="16" r="2" fill="#C9A24A"/></svg>
+      <span>The Inner Circle</span>
+    </a>
+    <ul>
+      <li><a href="#episodes">Episodes</a></li>
+      <li><a href="#clips">Clips</a></li>
+      <li><a href="blog/">Blog</a></li>
+      <li><a class="cta" href="sponsor.html">Sponsor the show</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <img class="avatar" src="https://ugc.production.linktr.ee/766bd147-d7c8-4290-9f76-fc83cc9f6202_IMG-6929.jpeg" alt="The Inner Circle Podcast" onerror="this.style.display='none';document.getElementById('avfb').style.display='block'">
+    <svg id="avfb" class="avatar-fallback" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="48" fill="#120f08" stroke="#C9A24A" stroke-width="2"/><circle cx="50" cy="50" r="26" fill="none" stroke="#C9A24A" stroke-width="1.5"/><circle cx="50" cy="50" r="12" fill="none" stroke="#C9A24A" stroke-width="1.5"/><circle cx="50" cy="50" r="3" fill="#C9A24A"/></svg>
+    <div>
+      <h1>The Inner Circle Podcast</h1>
+      <p class="lede">Real conversations with founders, creators and innovators.</p>
+      <p class="topics">Business · Mindset · Entertainment</p>
+      <p class="host">Hosted by DJ Haashim. Filmed in London.</p>
+    </div>
+  </div>
+
+  <section id="episodes" style="border-top:0;padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <h2>Episodes</h2>
+          <p class="sub">Every full conversation, newest first. Click any one to watch here.</p>
+        </div>
+        <a class="more" href="https://www.youtube.com/@TheInnerCirclePodcastOfficial/videos" target="_blank" rel="noopener">Open the channel on YouTube</a>
+      </div>
+      <ul class="grid" id="grid-episodes" aria-live="polite"></ul>
+      <div class="grid-foot"><button class="btn ghost" id="more-episodes" hidden>Load more episodes</button></div>
+    </div>
+  </section>
+
+  <section id="clips">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <h2>Clips</h2>
+          <p class="sub">The best moments, cut for your phone. Swipe through the latest from Instagram and TikTok.</p>
+        </div>
+        <span class="more-group">
+          <a class="more" href="https://www.instagram.com/theinnercirclepodcast.official" target="_blank" rel="noopener">More on Instagram</a>
+          <a class="more" href="https://www.tiktok.com/@theinnercirclepodcast.official" target="_blank" rel="noopener">More on TikTok</a>
+        </span>
+      </div>
+      <ul class="clips" id="clips-row" aria-label="Clips from Instagram and TikTok"></ul>
+    </div>
+  </section>
+
+  <section id="blog">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <h2>From the blog</h2>
+          <p class="sub">Episode breakdowns, guest stories and what we're learning about building a show.</p>
+        </div>
+        <a class="more" href="blog/">All posts</a>
+      </div>
+      <!-- LATEST POSTS: keep the newest 3 here. Copy a card from blog/index.html when you publish a new post. -->
+      <ul class="posts">
+        <li><a class="post-card" href="blog/welcome-to-the-inner-circle.html">
+          <p class="meta">1 October 2026</p>
+          <h3>Welcome to The Inner Circle</h3>
+          <p>What the show is, who it's for, and why we film it like a film rather than a podcast.</p>
+        </a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="socials">
+    <div class="wrap">
+      <h2>Watch and listen everywhere</h2>
+      <p class="sub">Full episodes on YouTube and Spotify. Clips, behind the scenes and guest announcements on Instagram, TikTok and Facebook.</p>
+      <ul class="tiles">
+        <li><a class="tile" href="https://www.youtube.com/@TheInnerCirclePodcastOfficial?sub_confirmation=1" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9l5 3-5 3z"/></svg>
+          <span class="t"><b>YouTube</b><small>Full episodes</small></span></a></li>
+        <li><a class="tile" href="https://www.instagram.com/theinnercirclepodcast.official" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4"/><circle cx="12" cy="12" r="3.5"/><circle cx="16.8" cy="7.2" r=".8" fill="#C9A24A" stroke="none"/></svg>
+          <span class="t"><b>Instagram</b><small>@theinnercirclepodcast.official</small></span></a></li>
+        <li><a class="tile" href="https://www.tiktok.com/@theinnercirclepodcast.official" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4v10.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 4c0 2.5 2 4.5 4.5 4.5"/></svg>
+          <span class="t"><b>TikTok</b><small>@theinnercirclepodcast.official</small></span></a></li>
+        <li><a class="tile" href="https://www.facebook.com/profile.php?id=61565287599182" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-7l-5 4v-4H6a2 2 0 0 1-2-2z"/></svg>
+          <span class="t"><b>Facebook</b><small>The Inner Circle Podcast</small></span></a></li>
+        <li><a class="tile" href="https://linktr.ee/theinnercirclepodcast.official" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h2M8 7v10M12 4v16M16 7v10M20 12h-2"/></svg>
+          <span class="t"><b>Spotify</b><small>Listen on the go</small></span></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="teaser">
+    <div class="wrap">
+      <div class="teaser-box">
+        <h2>Partner with The Inner Circle</h2>
+        <p>Get your brand in front of an engaged audience of young professionals, read into the conversation by the host and placed across every platform we publish on.</p>
+        <a class="btn" href="sponsor.html">See the investment</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap site">
+  <span>© <span id="yr">2026</span> The Inner Circle Podcast. Produced by Framora.</span>
+  <span>
+    <a href="https://www.youtube.com/@TheInnerCirclePodcastOfficial" target="_blank" rel="noopener">YouTube</a> ·
+    <a href="https://www.instagram.com/theinnercirclepodcast.official" target="_blank" rel="noopener">Instagram</a> ·
+    <a href="https://www.tiktok.com/@theinnercirclepodcast.official" target="_blank" rel="noopener">TikTok</a> ·
+    <a href="https://www.facebook.com/profile.php?id=61565287599182" target="_blank" rel="noopener">Facebook</a> ·
+    <a href="blog/">Blog</a> ·
+    <a href="sponsor.html">Sponsor</a>
+  </span>
+</footer>
+
+<!-- Video player overlay -->
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-bg" data-close></div>
+  <div class="modal-box">
+    <div class="modal-inner" id="modal-inner" role="dialog" aria-modal="true" aria-labelledby="m-title">
+      <div class="modal-top"><button class="modal-close" data-close>Close</button></div>
+      <div class="player" id="m-player"></div>
+      <h2 id="m-title"></h2>
+      <p class="meta" id="m-date"></p>
+      <div class="modal-desc" id="m-desc"></div>
+      <div class="modal-actions">
+        <a class="btn ghost" id="m-yt" href="#" target="_blank" rel="noopener">Watch on YouTube</a>
+        <button class="btn ghost" id="m-copy" type="button">Copy link to this video</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* =====================================================================
+   VIDEO LIBRARY
+
+   EPISODES: add a line for each full episode (newest first).
+     id    = the part after "youtu.be/" or "watch?v=" in the YouTube link
+     ep    = episode number
+     guest = guest name shown on the card
+   Thumbnails are generated from the id automatically. No API key needed.
+
+   CLIPS: paste Instagram reel links and TikTok links (any order).
+     TikTok short links (vm.tiktok.com/...) are resolved on the page itself.
+
+   OPTIONAL: paste a free YouTube Data API key between the quotes below and
+   the Episodes grid will pull every video from the channel automatically
+   (the EPISODES list is then only used if the API call fails).
+   ===================================================================== */
+var YT_API_KEY = "";
+
+var EPISODES = [
+  { id: "MDQY_71dL8Y", ep: 14, guest: "Niharica Raizada" },
+  { id: "zG2xFKQqO7U", ep: 8,  guest: "Harjap Singh Bhangal" },
+  { id: "QtaiFQQXCGY", ep: 4,  guest: "Luxurist Magazine" }
+];
+
+var CLIPS = [
+  "https://www.instagram.com/reel/DY9s2FxjQPl/",
+  "https://vm.tiktok.com/ZN8kHvArc/",
+  "https://www.instagram.com/reel/DXxHnK9kyCa/",
+  "https://vm.tiktok.com/ZN8kHQy2T/",
+  "https://www.instagram.com/reel/DdbwkuGguv9/",
+  "https://vm.tiktok.com/ZN8kHbeXD/"
+];
+
+(function(){
+  var CFG = { episodes: "UULFk6I7hqahFBUCNcl06i_QTw", pageSize: 24, cacheMs: 60*60*1000 };
+  var API = "https://www.googleapis.com/youtube/v3/playlistItems";
+  var videos = {};
+  var state = { episodes:{token:null,done:false,busy:false} };
+
+  try{ document.getElementById('yr').textContent = new Date().getFullYear(); }catch(e){}
+
+  function el(id){ return document.getElementById(id); }
+  function esc(s){ return String(s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  function fmtDate(iso){ try{ return new Date(iso).toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'}); }catch(e){ return ''; } }
+  function linkify(text){
+    return esc(text).replace(/(https?:\/\/[^\s<]+)/g, function(u){ return '<a href="'+u+'" target="_blank" rel="noopener">'+u+'</a>'; });
+  }
+  function thumb(t){
+    if(!t) return '';
+    var pick = t.maxres||t.standard||t.high||t.medium||t.default;
+    return pick ? pick.url : '';
+  }
+  function cacheGet(k){ try{ var c=JSON.parse(localStorage.getItem(k)||'null'); if(c && (Date.now()-c.t)<CFG.cacheMs) return c.d; }catch(e){} return null; }
+  function cacheSet(k,d){ try{ localStorage.setItem(k, JSON.stringify({t:Date.now(),d:d})); }catch(e){} }
+
+  /* ---------- episodes ---------- */
+  function card(v){
+    var li = document.createElement('li');
+    var ph = '<span class="ph" aria-hidden="true">'+
+      '<svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="13" stroke="#C9A24A" stroke-width="1.2"/><circle cx="16" cy="16" r="7" stroke="#C9A24A" stroke-width="1.2"/><circle cx="16" cy="16" r="2" fill="#C9A24A"/></svg>'+
+      '<b>'+esc(v.ep ? 'Episode '+v.ep : 'The Inner Circle')+'</b><small>Watch on YouTube</small></span>';
+    var img = v.thumb
+      ? '<img src="'+esc(v.thumb)+'" alt="" loading="lazy" onerror="this.style.display=\'none\'">'
+      : '<img src="https://i.ytimg.com/vi/'+esc(v.id)+'/maxresdefault.jpg" alt="" loading="lazy" data-fb="https://i.ytimg.com/vi/'+esc(v.id)+'/hqdefault.jpg" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.removeAttribute(\'data-fb\')}else{this.style.display=\'none\'}">';
+    li.innerHTML =
+      '<a class="card" href="#v='+esc(v.id)+'">'+
+        '<span class="thumb">'+ph+img+'<span class="play" aria-hidden="true"></span></span>'+
+        '<h3>'+esc(v.short||v.title)+'</h3>'+
+        '<p class="meta">'+esc(v.ep ? 'Episode '+v.ep : fmtDate(v.date))+'</p>'+
+        (v.desc ? '<p class="desc">'+esc(v.desc.split('\n')[0])+'</p>' : '')+
+      '</a>';
+    return li;
+  }
+
+  function renderStatic(){
+    var grid = el('grid-episodes');
+    grid.innerHTML = '';
+    EPISODES.forEach(function(e){
+      var v = { id:e.id, kind:'episodes', ep:e.ep, short:e.guest, title:'Episode '+e.ep+' with '+e.guest, desc:'', date:'', thumb:'' };
+      videos[v.id] = v;
+      grid.appendChild(card(v));
+    });
+    el('more-episodes').hidden = true;
+    openFromHash();
+  }
+
+  function fetchPage(playlist, token){
+    var key = 'tic_'+playlist+'_'+(token||'0');
+    var hit = cacheGet(key);
+    if(hit) return Promise.resolve(hit);
+    var url = API+'?part=snippet&maxResults='+CFG.pageSize+'&playlistId='+playlist+'&key='+encodeURIComponent(YT_API_KEY)+(token?'&pageToken='+encodeURIComponent(token):'');
+    return fetch(url).then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+      .then(function(d){ cacheSet(key,d); return d; });
+  }
+
+  function toVideo(item){
+    var s = item.snippet || {};
+    var id = s.resourceId && s.resourceId.videoId;
+    if(!id || /^(private|deleted) video$/i.test(s.title||'')) return null;
+    var t = s.title||'';
+    var m = /episode\s*(\d+)\s*[-–—:|]\s*(.+)$/i.exec(t);
+    return { id:id, kind:'episodes', title:t, ep: m?+m[1]:0, short: m?m[2].trim():'', desc:s.description||'', date:s.publishedAt||'', thumb:thumb(s.thumbnails) };
+  }
+
+  function skeleton(n, grid){
+    for(var i=0;i<n;i++){ var li=document.createElement('li'); li.className='skeleton'; li.innerHTML='<span class="thumb"></span><div class="bar"></div><div class="bar s"></div>'; grid.appendChild(li); }
+  }
+
+  function load(){
+    var st = state.episodes; if(st.busy||st.done) return Promise.resolve();
+    st.busy = true;
+    var grid = el('grid-episodes'), more = el('more-episodes');
+    if(!st.token) skeleton(6, grid);
+    more.disabled = true;
+    return fetchPage(CFG.episodes, st.token).then(function(d){
+      Array.prototype.slice.call(grid.querySelectorAll('.skeleton')).forEach(function(n){ n.remove(); });
+      (d.items||[]).forEach(function(it){ var v=toVideo(it); if(v){ videos[v.id]=v; grid.appendChild(card(v)); } });
+      st.token = d.nextPageToken || null;
+      st.done = !st.token;
+      more.hidden = st.done;
+      more.disabled = false;
+      st.busy = false;
+      if(!grid.children.length) throw new Error('empty');
+      openFromHash();
+    }).catch(function(){
+      st.busy = false; st.done = true;
+      renderStatic();
+    });
+  }
+
+  /* ---------- clips (Instagram + TikTok) ---------- */
+  var ICON = {
+    instagram: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4"/><circle cx="12" cy="12" r="3.5"/><circle cx="16.8" cy="7.2" r=".8" fill="#C9A24A" stroke="none"/></svg>',
+    tiktok:    '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4v10.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 4c0 2.5 2 4.5 4.5 4.5"/></svg>'
+  };
+  function frameHTML(src, title){
+    return '<iframe src="'+esc(src)+'" title="'+esc(title)+'" loading="lazy" scrolling="no" allow="encrypted-media; picture-in-picture; clipboard-write; web-share" allowfullscreen></iframe>';
+  }
+  function fallbackHTML(url, label){
+    return '<a class="fb" href="'+esc(url)+'" target="_blank" rel="noopener">'+ICON[label.toLowerCase()]+'<b>Watch on '+esc(label)+'</b><span>This clip opens in the '+esc(label)+' app or site.</span><em>Open clip</em></a>';
+  }
+  function clipNode(url){
+    var isIG = /instagram\.com/i.test(url), label = isIG ? 'Instagram' : 'TikTok';
+    var li = document.createElement('li'); li.className = 'clip';
+    li.innerHTML = '<div class="frame"></div>'+
+      '<div class="foot"><span class="pl">'+ICON[label.toLowerCase()]+label+'</span>'+
+      '<a href="'+esc(url)+'" target="_blank" rel="noopener">Open in '+label+'</a></div>';
+    var frame = li.querySelector('.frame');
+    /* the branded card always sits underneath; the embed is layered on top once it loads */
+    frame.innerHTML = fallbackHTML(url,label);
+    if(isIG){
+      var m = /instagram\.com\/(?:reel|reels|p)\/([\w-]+)/i.exec(url);
+      if(m) frame.insertAdjacentHTML('beforeend', frameHTML('https://www.instagram.com/reel/'+m[1]+'/embed/', 'Instagram reel'));
+    } else {
+      var v = /tiktok\.com\/@[^/]+\/video\/(\d+)/i.exec(url);
+      if(v){ frame.insertAdjacentHTML('beforeend', frameHTML('https://www.tiktok.com/embed/v2/'+v[1], 'TikTok video')); }
+      else {
+        fetch('https://www.tiktok.com/oembed?url='+encodeURIComponent(url))
+          .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+          .then(function(d){
+            var id = d.embed_product_id || ((d.html||'').match(/data-video-id="(\d+)"/)||[])[1];
+            if(!id) throw 0;
+            frame.insertAdjacentHTML('beforeend', frameHTML('https://www.tiktok.com/embed/v2/'+id, d.title || 'TikTok video'));
+          }).catch(function(){ /* keep the branded card */ });
+      }
+    }
+    return li;
+  }
+  function renderClips(){
+    var row = el('clips-row'); row.innerHTML = '';
+    CLIPS.forEach(function(u){ row.appendChild(clipNode(u)); });
+  }
+
+  /* ---------- player overlay ---------- */
+  var modal = el('modal');
+  var baseTitle = document.title;
+  function openVideo(id){
+    var v = videos[id] || { id:id, kind:'episodes', title:'The Inner Circle Podcast', desc:'', date:'' };
+    el('modal-inner').className = 'modal-inner';
+    el('m-player').className = 'player';
+    el('m-player').innerHTML = '<iframe src="https://www.youtube.com/embed/'+esc(id)+'?autoplay=1&rel=0&color=white" title="'+esc(v.title)+'" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+    el('m-title').textContent = v.title;
+    el('m-date').textContent = v.date ? fmtDate(v.date) : '';
+    el('m-desc').innerHTML = v.desc ? linkify(v.desc) : '';
+    el('m-yt').href = 'https://www.youtube.com/watch?v='+encodeURIComponent(id);
+    modal.classList.add('open'); modal.setAttribute('aria-hidden','false');
+    document.body.classList.add('locked');
+    el('modal-inner').querySelector('.modal-close').focus();
+    document.title = v.title + ' | The Inner Circle Podcast';
+  }
+  function closeVideo(){
+    modal.classList.remove('open'); modal.setAttribute('aria-hidden','true');
+    el('m-player').innerHTML = '';
+    document.body.classList.remove('locked');
+    document.title = baseTitle;
+    if(/^#v=/.test(location.hash)){ history.replaceState(null,'',location.pathname+location.search); }
+  }
+  function openFromHash(){
+    var m = /^#v=([\w-]{6,})$/.exec(location.hash);
+    if(m){ openVideo(m[1]); } else if(modal.classList.contains('open')){ closeVideo(); }
+  }
+  window.addEventListener('hashchange', openFromHash);
+  modal.addEventListener('click', function(e){ if(e.target.hasAttribute('data-close')) closeVideo(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && modal.classList.contains('open')) closeVideo(); });
+  el('m-copy').addEventListener('click', function(){
+    var url = location.href.split('#')[0] + location.hash;
+    try{ navigator.clipboard.writeText(url).then(function(){ el('m-copy').textContent='Link copied'; setTimeout(function(){ el('m-copy').textContent='Copy link to this video'; },1800); }); }catch(e){}
+  });
+  el('more-episodes').addEventListener('click', load);
+
+  renderClips();
+  if(YT_API_KEY){ load(); } else { renderStatic(); }
+})();
+</script>
+</body>
+</html>
