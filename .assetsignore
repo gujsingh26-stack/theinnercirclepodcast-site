@@ -1,0 +1,7 @@
+# Files that stay out of the published website. Cloudflare reads this list when it deploys.
+.git
+.github
+.assetsignore
+.DS_Store
+README.md
+wrangler.jsonc
