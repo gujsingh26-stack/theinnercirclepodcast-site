@@ -201,3 +201,18 @@ footer.site{border-top:1px solid var(--line);padding:32px 0;font-size:14px;color
 footer.site a{text-decoration:none}
 footer.site a:hover{color:var(--ivory)}
 
+
+/* ---------- episode pages ---------- */
+.article .kicker{margin:18px 0 0;color:var(--gold);font-family:var(--serif);font-style:italic;font-size:21px}
+.article .kicker+h1{margin-top:4px}
+.article.episode .player{margin:0 0 36px;max-width:960px}
+.player .yt-poster{position:absolute;inset:0;display:block;background:var(--panel)}
+.player .yt-poster img{width:100%;height:100%;object-fit:cover;display:block}
+.player .yt-poster .play{position:absolute;left:50%;top:50%;width:76px;height:76px;margin:-38px 0 0 -38px;border-radius:50%;background:rgba(0,0,0,.62);border:1px solid var(--gold);display:grid;place-items:center;transition:transform .15s,background .15s}
+.player .yt-poster .play::before{content:"";border-left:22px solid var(--gold);border-top:14px solid transparent;border-bottom:14px solid transparent;margin-left:6px}
+.player .yt-poster:hover .play,.player .yt-poster:focus-visible .play{transform:scale(1.06);background:rgba(0,0,0,.8)}
+.ep-nav{margin-top:40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.ep-nav-link{display:block;border:1px solid var(--line);background:var(--panel);padding:18px 20px;text-decoration:none;color:inherit}
+.ep-nav-link:hover{border-color:var(--gold-dim)}
+.ep-nav-link small{display:block;color:var(--muted);font-size:13px;margin-bottom:4px}
+.ep-nav-link b{font-family:var(--serif);font-weight:500;font-size:21px;color:var(--ivory)}
